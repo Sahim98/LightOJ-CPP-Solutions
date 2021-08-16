@@ -43,7 +43,6 @@ int main(){
     area1=sqrt(s*(s-x)*(s-de)*(s-ae));
     area2=sqrt(s1*(s1-ab)*(s1-bc)*(s1-ac));
    r1=area1/(area2-area1);
-   //bug(r,r1,x)
    if((r-r1)<=.0000001&&r1<r)break;
    if(r1<r)
     low=mid;
